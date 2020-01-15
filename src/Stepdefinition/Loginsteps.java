@@ -20,7 +20,8 @@ public class Loginsteps {
 		ChromeOptions options = new ChromeOptions();
 		options.setExperimentalOption("useAutomationExtension", false);
 		driver = new ChromeDriver(options);
-		driver.get("http://practice.automationtesting.in");
+		driver.get("http://practice.automationtes.in");
+		System.out.println("Super");
 
 	}
 
